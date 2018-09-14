@@ -14,7 +14,7 @@ library(gapminder)
 
 ### Exploration of data frames
 
-Let's explore `gapminder` with functions like `head`, `ncol`, `str`, `summary`.
+Let's explore `gapminder` with functions like `head`, `names`, `nrow`, `ncol`, `dim`, `summary`.
 
 ``` r
 head(gapminder)
@@ -329,6 +329,8 @@ gapminder$lifeExp
     ## [1702] 46.80900 39.98900 43.48700
 
 ### Data Visualization
+
+Let's plot a very simple graph.
 
 ``` r
 plot(lifeExp ~ gdpPercap, gapminder)
